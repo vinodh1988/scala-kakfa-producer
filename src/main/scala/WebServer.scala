@@ -30,7 +30,7 @@ object WebServer {
       }
 
     Http().newServerAt("0.0.0.0", 8080).bind(route)
-    println("Server online at http://localhost:8080/")
+    println("Server online at http://0.0.0.0:8080/")
   }
 }
 
